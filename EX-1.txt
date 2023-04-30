@@ -1,0 +1,9 @@
+GLSL é a linguagem de programação para shaders em OpenGL. É similar a linguagem C
+
+Para conseguir quaisquer resultado, os Shaders de Vertex e Fragment são necessários.
+
+Vertex Shader controla a posição e formato de vetores para construcão de imagens
+
+Fragment Shader controla as cores finais de imagens.
+
+O formato final da combinação é um Shader Program.

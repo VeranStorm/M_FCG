@@ -1,0 +1,3 @@
+Primitivas são "dicas" para o OpenGL saber o método que deve ser escolhido para a utilização dos vértices e coordenadas recebidos pelo Vertex Shader ou opcionalmente pelo Geometry Shader.
+
+O armazenamento de Vértices é feito por meio de Vertex Buffer Objects(VBOs) que carrega a informação em lotes para memória da GPU.

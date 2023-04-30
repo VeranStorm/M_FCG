@@ -1,0 +1,15 @@
+VBO - Vertex Buffer Object
+
+Carrega as informações de coordenadas para grande número de vértices. Tudo é mandado para a mémoria da GPU
+
+VAO - Vertex Array Object
+
+Carrega as informações de atributos aplicados por meio do Vertex Shader, junto com paramêtros que definem como o OpenGL deve interpretar a informação dos vértices e como navegar os VBOs na mémoria.
+
+EBO - Element Buffer Object
+
+Carrega índices para construção de imagens, com o objectivo de evitar a duplicação de coordenadas de vértices. Os índices definem a ordem em que coordenadas únicas devem ser usadas para a construção.
+
+
+
+Informação armazenada no VBO é acessada pelo OpenGL de acordo com os atributos salvos no VAO, e a imagem é construída de acordo com ordem de coordenadas definida no EBO.
